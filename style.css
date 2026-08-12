@@ -1,0 +1,37 @@
+/* ==========================================================================
+   1. DESIGN TOKENS & VARIÁVEIS DE TEMA
+   ========================================================================== */
+:root {
+  /* Cores Base (Paleta OkLCH / HSL equivalente para alto contraste) */
+  --bg-color: #0b0f19;
+  --card-bg: rgba(22, 31, 48, 0.75);
+  --card-bg-hover: rgba(30, 41, 59, 0.9);
+  --input-bg: #111827;
+  
+  /* Accent & Ações */
+  --accent-color: #8b5cf6;
+  --accent-hover: #7c3aed;
+  --accent-glow: rgba(139, 92, 246, 0.3);
+  --danger-color: #ef4444;
+  --danger-hover: #dc2626;
+  --star-color: #f59e0b;
+
+  /* Tipografia & Neutros */
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-focus: #8b5cf6;
+
+  /* Badges Categoria */
+  --badge-filme: #ef4444;
+  --badge-game: #3b82f6;
+  --badge-musica: #10b981;
+
+  /* Elevação e Efeitos */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 35px -10px rgba(0, 0, 0, 0.6);
+  --backdrop-blur: blur(12px);
